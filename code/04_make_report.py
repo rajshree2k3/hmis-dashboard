@@ -235,7 +235,7 @@ para("With 31–32 districts, a correlation needs |ρ| > 0.35 just to reach p < 
 
 # ---------------------------------------------------------------- next steps
 doc.add_heading("5. Dashboard and next steps", 1)
-para("[DASHBOARD LINK]. Filters by district (default Trichy), indicator, year and district frame. Tabs: at-a-glance "
+para("https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/. Filters by district (default Trichy), indicator, year and district frame. Tabs: at-a-glance "
      "takeaways with a 'trust level' per indicator; district ranking; monthly trends; HMIS vs NFHS-5 with uncertainty; data-quality checks.",
      "Live dashboard: ")
 para("(1) Obtain 2021-22 onward HMIS (NDAP/portal login) and RCH/PICME registrations to build resident denominators at block level. "

@@ -347,7 +347,7 @@ steps.forEach(([n, head, body], i) => {
   txt(s, [{ text: head + "  ", options: { bold: true, color: C.background1 } }, { text: body, options: { color: "CADCFC" } }],
     { x: M + 0.8, y, w: W - 2 * M - 0.8, h: 0.55, fontSize: 16, valign: "middle" });
 });
-txt(s, "Live dashboard: [DASHBOARD LINK]   ·   Full report, code & README in the submission folder",
+txt(s, "Live dashboard: https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/   ·   Full report, code & README in the submission folder",
   { x: M, y: 6.4, w: W - 2 * M, h: 0.5, fontSize: 14, color: "9FB3C8" });
 
 // ------------------------------------------------------------------ write

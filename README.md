@@ -6,7 +6,7 @@ CEGIS analytical assignment, District Data Analyst (Tiruchirappalli).
 |---|---|
 | Report (4 pages) | `report/CEGIS_Trichy_Assignment_Report.pdf` (editable: `.docx`) |
 | Slides (11) | `report/CEGIS_Trichy_Assignment_Slides.pptx` (+ `.pdf`) |
-| Live dashboard | **[DASHBOARD LINK]** (source: `dashboard/app.py`) |
+| Live dashboard | **https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/** (source: `dashboard/app.py`) |
 | Code | `code/00`–`05` (run in order) |
 | AI-use note | `AI_use_note.md` |
 
