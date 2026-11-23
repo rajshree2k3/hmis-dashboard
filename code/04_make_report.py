@@ -107,7 +107,7 @@ def figure(path, width_cm, caption):
 t = doc.add_paragraph()
 r = t.add_run("Maternal & child health in Tamil Nadu: can we trust the HMIS numbers?")
 r.bold, r.font.size = True, Pt(16)
-para("CEGIS analytical assignment · District Data Analyst, Tiruchirappalli · [Candidate name] · November 2026",
+para("CEGIS analytical assignment · District Data Analyst, Tiruchirappalli · Rajshree · November 2026",
      size=9, italic=True)
 
 # ---------------------------------------------------------------- bottom line

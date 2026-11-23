@@ -30,7 +30,7 @@ const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE"; // 13.333 x 7.5 in
 pres.theme = { headFontFace: THEME.headFontFace, bodyFontFace: THEME.bodyFontFace };
 pres.title = "Maternal & child health in Tamil Nadu: can we trust HMIS?";
-pres.author = "[Candidate name]";
+pres.author = "Rajshree";
 const C = pres.SchemeColor;
 const W = 13.333;
 const M = 0.6; // side margin
@@ -97,7 +97,7 @@ let s = pres.addSlide({ masterName: "DARK", sectionTitle: "Opening" });
 s.addText("Maternal & child health in Tamil Nadu: can we trust the HMIS numbers?", { placeholder: "title" });
 s.addText([
   { text: "Data quality, triangulation with NFHS-5, and what it means for Tiruchirappalli", options: { breakLine: true } },
-  { text: "CEGIS analytical assignment · District Data Analyst · [Candidate name] · November 2026", options: { fontSize: 14, color: "9FB3C8" } },
+  { text: "CEGIS analytical assignment · District Data Analyst · Rajshree · November 2026", options: { fontSize: 14, color: "9FB3C8" } },
 ], { placeholder: "body" });
 s.addNotes("Purpose: judge how far HMIS can be trusted for district decisions, check it against NFHS-5, and show what that means for Trichy.");
 
