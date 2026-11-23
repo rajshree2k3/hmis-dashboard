@@ -1,0 +1,46 @@
+district_raw,district_38,district_nfhs32,relationship,note
+Ariyalur,Ariyalur,Ariyalur,unchanged,
+Chengalpattu,Chengalpattu,Kancheepuram,carved_out,Carved from Kancheepuram (Nov 2019)
+Chennai,Chennai,Chennai,unchanged,
+Coimbatore,Coimbatore,Coimbatore,unchanged,
+Cuddalore,Cuddalore,Cuddalore,unchanged,
+Dharmapuri,Dharmapuri,Dharmapuri,unchanged,
+Dindigul,Dindigul,Dindigul,unchanged,
+Erode,Erode,Erode,unchanged,
+Kallakurichi,Kallakurichi,Viluppuram,carved_out,Carved from Viluppuram (Nov 2019)
+Kancheepuram,Kancheepuram,Kancheepuram,parent,Pre-split spelling (2018-20 HMIS)
+Kanchipuram,Kancheepuram,Kancheepuram,parent,Post-split spelling (2020-21 HMIS)
+Kanniyakumari,Kanniyakumari,Kanniyakumari,unchanged,
+Karur,Karur,Karur,unchanged,
+Krishnagiri,Krishnagiri,Krishnagiri,unchanged,
+Madurai,Madurai,Madurai,unchanged,
+Mayiladuthurai,Mayiladuthurai,Nagapattinam,carved_out,Carved from Nagapattinam (Dec 2020); HMIS 2020-21 reports zeros - activity still booked under Nagapattinam
+Nagapattinam,Nagapattinam,Nagapattinam,parent,
+Namakkal,Namakkal,Namakkal,unchanged,
+Nilgiris,The Nilgiris,The Nilgiris,unchanged,Spelling variant
+Perambalur,Perambalur,Perambalur,unchanged,
+Pudukkottai,Pudukkottai,Pudukkottai,unchanged,
+Ramanathapuram,Ramanathapuram,Ramanathapuram,unchanged,
+Ranipet,Ranipet,Vellore,carved_out,Carved from Vellore (Nov 2019)
+Salem,Salem,Salem,unchanged,
+Sivaganga,Sivaganga,Sivaganga,unchanged,
+Tenkasi,Tenkasi,Tirunelveli,carved_out,Carved from Tirunelveli (Nov 2019)
+Thanjavur,Thanjavur,Thanjavur,unchanged,
+The Nilgiris,The Nilgiris,The Nilgiris,unchanged,
+Theni,Theni,Theni,unchanged,
+Thiruvallur,Thiruvallur,Thiruvallur,unchanged,
+Thiruvarur,Thiruvarur,Thiruvarur,unchanged,
+Tiruchirappalli,Tiruchirappalli,Tiruchirappalli,unchanged,
+Tirunelveli,Tirunelveli,Tirunelveli,parent,
+Tirupathur,Tirupathur,Vellore,carved_out,Carved from Vellore (Nov 2019)
+Tiruppur,Tiruppur,Tiruppur,unchanged,Spelling variant
+Tirupur,Tiruppur,Tiruppur,unchanged,Spelling variant
+Tiruvanamalai,Tiruvannamalai,Tiruvannamalai,unchanged,Spelling variant
+Tiruvannamalai,Tiruvannamalai,Tiruvannamalai,unchanged,
+Toothukudi,Thoothukkudi,Thoothukkudi,unchanged,Spelling variant
+Tuticorin,Thoothukkudi,Thoothukkudi,unchanged,Spelling variant
+Vellore,Vellore,Vellore,parent,
+Villupuram,Viluppuram,Viluppuram,parent,Spelling variant
+Viluppuram,Viluppuram,Viluppuram,parent,
+Virudhunagar,Virudhunagar,Virudhunagar,unchanged,
+Tamil Nadu,STATE,STATE,state_total,State total row
