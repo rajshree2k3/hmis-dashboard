@@ -6,7 +6,7 @@ CEGIS analytical assignment, District Data Analyst (Tiruchirappalli).
 |---|---|
 | Report (4 pages) | `report/CEGIS_Trichy_Assignment_Report.pdf` (editable: `.docx`) |
 | Slides (11) | `report/CEGIS_Trichy_Assignment_Slides.pptx` (+ `.pdf`) |
-| Live dashboard | **https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/** (source: `dashboard/app.py`) |
+| Live dashboard | **https://rajshree2k3.github.io/hmis-dashboard/** (GitHub Pages, runs in the browser via stlite; first load ~30 s). Also on Streamlit Cloud: https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/ (source: `dashboard/app.py`) |
 | Code | `code/00`–`05` (run in order) |
 | AI-use note | `AI_use_note.md` |
 
@@ -33,6 +33,9 @@ Or `bash run_all.sh`. Python 3.10+.
 - **Triangulation period.** HMIS Apr 2018–Mar 2020 pooled vs NFHS-5 (births in the 5 years before early-2020 fieldwork).
 - **Full immunisation, resident denominator** (sensitivity). Fully-immunised children ÷ (previous FY's ANC registrations × state live-births-per-registration). Corrects for births being counted in the district where they occur.
 - **NFHS-5 confidence intervals** are indicative only (n ≈ 25% of women interviewed for birth indicators; 37 for bracketed immunisation values, 65 otherwise; design effect 1.5).
+
+## Dashboard on GitHub Pages (stlite)
+`index.html` loads [stlite](https://github.com/whitphx/stlite) (Streamlit compiled to WebAssembly) and runs `dashboard/app.py` with the CSVs in `data/processed/` entirely in the visitor's browser. No server, no sleeping. Enable once: repo **Settings → Pages → Deploy from a branch → `main` / `(root)` → Save**.
 
 ## Deploy the dashboard (Streamlit Community Cloud, free)
 1. Push this folder to a **public GitHub repo**. `.gitignore` excludes the raw data and the 470 MB `hmis_long.csv`; the dashboard only needs the small CSVs in `data/processed/`.

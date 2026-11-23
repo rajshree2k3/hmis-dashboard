@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>TN MCH Data Check</title>
+  <meta name="description" content="Tamil Nadu maternal & child health: HMIS data quality and triangulation with NFHS-5 (runs in the browser via stlite)." />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.1/build/stlite.css" />
+  <style>
+    body { margin: 0; background: #ffffff; font-family: Calibri, Arial, sans-serif; }
+    #loading { max-width: 640px; margin: 15vh auto 0; padding: 0 16px; color: #14213d; }
+    #loading h1 { font-size: 22px; margin: 0 0 8px; }
+    #loading p { color: #52514e; font-size: 16px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div id="loading">
+      <h1>Loading the dashboard…</h1>
+      <p>This dashboard runs Python inside your browser, so the first load takes about 20–40 seconds.
+         Later visits are faster.</p>
+    </div>
+  </div>
+  <script type="module">
+    import { mount } from "https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.1/build/stlite.js";
+
+    const DATA = [
+      "dashboard_long.csv", "triangulation_district.csv", "triangulation_summary.csv",
+      "dq_completeness.csv", "dq_logic_flags.csv", "drivers_correlations.csv",
+    ];
+    const files = { "dashboard/app.py": { url: "./dashboard/app.py" } };
+    for (const f of DATA) files[`data/processed/${f}`] = { url: `./data/processed/${f}` };
+
+    mount(
+      {
+        requirements: ["pandas", "plotly", "jinja2"],
+        entrypoint: "dashboard/app.py",
+        files,
+        streamlitConfig: { "theme.base": "light", "client.toolbarMode": "viewer" },
+      },
+      document.getElementById("root"),
+    );
+  </script>
+</body>
+</html>
