@@ -235,9 +235,12 @@ para("With 31–32 districts, a correlation needs |ρ| > 0.35 just to reach p < 
 
 # ---------------------------------------------------------------- next steps
 doc.add_heading("5. Dashboard and next steps", 1)
-para("https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/. Filters by district (default Trichy), indicator, year and district frame. Tabs: at-a-glance "
-     "takeaways with a 'trust level' per indicator; district ranking; monthly trends; HMIS vs NFHS-5 with uncertainty; data-quality checks.",
-     "Live dashboard: ")
+para("Filters by district (default Trichy), indicator, year and district frame. Tabs: at-a-glance "
+     "takeaways with a 'trust level' per indicator; district ranking; monthly trends; HMIS vs NFHS-5 with uncertainty; data-quality checks. "
+     "The same dashboard is available at two links:", "Live dashboard. ")
+bullet(" https://hmis-dashboard-23pwg7jrxhautuh6wbjhba.streamlit.app/ (Streamlit Community Cloud; loads in ~10 s)", "Main link:")
+bullet(" https://rajshree2k3.github.io/hmis-dashboard/ (GitHub Pages; runs in the browser, first load ~30–50 s, never sleeps)", "Backup link:")
+bullet(" https://github.com/rajshree2k3/hmis-dashboard (code, README, data-processing pipeline)", "Code:")
 para("(1) Obtain 2021-22 onward HMIS (NDAP/portal login) and RCH/PICME registrations to build resident denominators at block level. "
      "(2) Field-check first-trimester recording with 2–3 PHCs. (3) Re-triangulate against NFHS-6 when district data is released.",
      "If I had more time / access: ")
